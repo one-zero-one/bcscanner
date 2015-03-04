@@ -12,7 +12,6 @@
 		E83FD1CC1AA709AC00698948 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83FD1CB1AA709AC00698948 /* CoreText.framework */; };
 		E83FD1DB1AA70A4100698948 /* TBarcodeScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E83FD1D91AA70A4100698948 /* TBarcodeScannerViewController.h */; };
 		E83FD1DC1AA70A4100698948 /* TBarcodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E83FD1DA1AA70A4100698948 /* TBarcodeScannerViewController.m */; };
-		E83FD1DE1AA70C5300698948 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E83FD1DD1AA70C5300698948 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,13 +25,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E80294E91AA7138A00E6FD61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E83FD1AD1AA7098000698948 /* TilllessBCScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TilllessBCScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83FD1B81AA7098000698948 /* TilllessBCScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilllessBCScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83FD1C91AA7099B00698948 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E83FD1CB1AA709AC00698948 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		E83FD1D91AA70A4100698948 /* TBarcodeScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBarcodeScannerViewController.h; sourceTree = "<group>"; };
 		E83FD1DA1AA70A4100698948 /* TBarcodeScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBarcodeScannerViewController.m; sourceTree = "<group>"; };
-		E83FD1DD1AA70C5300698948 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +58,7 @@
 		E83FD1A31AA7098000698948 = {
 			isa = PBXGroup;
 			children = (
-				E83FD1DD1AA70C5300698948 /* Info.plist */,
+				E80294E91AA7138A00E6FD61 /* Info.plist */,
 				E83FD1D61AA70A4100698948 /* Source */,
 				E83FD1CD1AA70A0800698948 /* Frameworks */,
 				E83FD1AE1AA7098000698948 /* Products */,
@@ -200,7 +199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E83FD1DE1AA70C5300698948 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
