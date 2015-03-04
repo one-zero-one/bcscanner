@@ -1,6 +1,5 @@
 # TilllessBCScanner
 
-[![CI Status](http://img.shields.io/travis/Matthew Sinclair/TilllessBCScanner.svg?style=flat)](https://travis-ci.org/Matthew Sinclair/TilllessBCScanner)
 [![Version](https://img.shields.io/cocoapods/v/TilllessBCScanner.svg?style=flat)](http://cocoadocs.org/docsets/TilllessBCScanner)
 [![License](https://img.shields.io/cocoapods/l/TilllessBCScanner.svg?style=flat)](http://cocoadocs.org/docsets/TilllessBCScanner)
 [![Platform](https://img.shields.io/cocoapods/p/TilllessBCScanner.svg?style=flat)](http://cocoadocs.org/docsets/TilllessBCScanner)
