@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'TilllessBCScanner', :exclusive => true do
+  pod "TilllessBCScanner", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "TilllessBCScanner", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end

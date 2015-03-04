@@ -1,23 +1,23 @@
 Pod::Spec.new do |s|
-  s.name               = 'TilllessBCScanner'
-  s.version            = '0.0.1'
-  s.license            = 'MIT'
-  s.platform           = :ios, '8.0'
-  s.summary            = "Concrete implementation of AVCaptureMetadataOutputObjectsDelegate in TBarcodeScannerViewController to work with RubyMotion."
-  s.homepage           = 'https://github.com/tillless/bcscanner'
-  s.author             = { 'Tillless' => 'info@tillless.com' }
-  s.source             = { :git => 'https://github.com/tillless/bcscanner.git', :tag => '0.0.1' }
+  s.name             = "TilllessBCScanner"
+  s.version          = "0.0.1"
+  s.summary          = "TBarcodeScannerViewController suitable for working with RubyMotion."
+  s.description      = <<-DESC
+                       Concrete implementation of AVCaptureMetadataOutputObjectsDelegate in TBarcodeScannerViewController to work with RubyMotion.
+                       DESC
+  s.homepage         = 'https://github.com/tillless/bcscanner'
+  s.license          = 'MIT'
+  s.author           = { "Tillless" => "info@tillless.com" }
+  s.source           = { :git => 'https://github.com/tillless/bcscanner.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/tillless'
 
-  s.ios.source_files   = 'Source/tillless/bcscanner/*{.h,m}'
-  s.libraries          = ''
-  s.framework          = 'QuartzCore', 'CoreText'
-  # s.dependency ''
-  s.prefix_header_file = 'XCodeProjectData/TilllessBCScanner/TilllessBCScanner-Prefix.pch'
-  s.requires_arc       = false
+  s.platform         = :ios, '8.1'
+  s.requires_arc     = true
 
-  s.xcconfig           = {
-    'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++11',
-    'CLANG_CXX_LIBRARY'           => 'libc++',
-    'HEADER_SEARCH_PATHS'         => '$(SDKROOT)/usr/include/libxml2'
+  s.source_files     = 'Pod/Classes/**/*'
+  s.resource_bundles = {
+    'TilllessBCScanner' => ['Pod/Assets/*.png']
   }
+
+  s.frameworks       = 'UIKit', 'QuartzCore'
 end
