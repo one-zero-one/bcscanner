@@ -3,7 +3,8 @@ Pod::Spec.new do |s|
   s.version          = "0.0.1"
   s.summary          = "TBarcodeScannerViewController suitable for working with RubyMotion."
   s.description      = <<-DESC
-                       Concrete implementation of AVCaptureMetadataOutputObjectsDelegate in TBarcodeScannerViewController to work with RubyMotion.
+                       Concrete implementation of AVCaptureMetadataOutputObjectsDelegate in
+                       TBarcodeScannerViewController to work with RubyMotion.
                        DESC
   s.homepage         = 'https://github.com/tillless/bcscanner'
   s.license          = 'MIT'

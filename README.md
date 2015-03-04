@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## About
+
+Concrete implementation of AVCaptureMetadataOutputObjectsDelegate in TBarcodeScannerViewController to work with RubyMotion.
+
 ## Installation
 
 TilllessBCScanner is available through [CocoaPods](http://cocoapods.org). To install
@@ -20,9 +24,8 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Matthew Sinclair, me@matthew-sinclair.com
+Tillless, info@tillless.com
 
 ## License
 
 TilllessBCScanner is available under the MIT license. See the LICENSE file for more info.
-
