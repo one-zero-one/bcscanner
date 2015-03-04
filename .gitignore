@@ -117,6 +117,8 @@ resources/*.storyboardc
 
 *.moved-aside
 
+*.xcodeproj/project.xcworkspace/
+
 
 ####
 # UNKNOWN: recommended by others, but I can't discover what these files are
