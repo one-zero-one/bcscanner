@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version     = '0.0.1'
   s.license     = 'MIT'
   s.platform    = :ios, '8.0'
-  s.summary     = "Concrete implementtion of AVCaptureMetadataOutputObjectsDelegate in TBarcodeScannerViewController to work with RubyMotion."
+  s.summary     = "Concrete implementation of AVCaptureMetadataOutputObjectsDelegate in TBarcodeScannerViewController to work with RubyMotion."
   s.homepage    = 'https://github.com/tillless/bcscanner'
   s.author      = { 'Tillless' => 'info@tillless.com' }
   s.source      = { :git => 'git@github.com:tillless/bcscanner.git' }
