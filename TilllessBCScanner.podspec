@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TilllessBCScanner"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "TBarcodeScannerViewController suitable for working with RubyMotion."
   s.description      = <<-DESC
                        Concrete implementation of AVCaptureMetadataOutputObjectsDelegate in
