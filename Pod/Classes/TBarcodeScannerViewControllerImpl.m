@@ -1,5 +1,5 @@
 //
-//  TBarcodeScannerViewController.h
+//  TBarcodeScannerViewControllerImpl.h
 //  Scan bar codes
 //
 //  Created by Matthew Sinclair on 31/01/15.
@@ -7,9 +7,9 @@
 //
 
 #import <AVFoundation/AVFoundation.h>
-#import "TBarcodeScannerViewController.h"
+#import "TBarcodeScannerViewControllerImpl.h"
 
-@interface TBarcodeScannerViewController () <AVCaptureMetadataOutputObjectsDelegate>
+@interface TBarcodeScannerViewControllerImpl () <AVCaptureMetadataOutputObjectsDelegate>
 {
   AVCaptureSession *_session;
   AVCaptureDevice *_device;
@@ -26,7 +26,7 @@
 }
 @end
 
-@implementation TBarcodeScannerViewController
+@implementation TBarcodeScannerViewControllerImpl
 
 - (void)viewDidLoad
 {
@@ -50,7 +50,7 @@
     [_session addInput:_input];
     _lastError = nil;
   } else {
-    // NSLog(@"TBarcodeScannerViewController#setupScanner: error setting up scanner: %@", error);
+    // NSLog(@"TBarcodeScannerViewControllerImpl#setupScanner: error setting up scanner: %@", error);
     _lastError = error;
     return NO;
   }
@@ -123,7 +123,7 @@
   }
 
   _highlightView.frame = highlightViewRect;
-  // NSLog(@"TBarcodeScannerViewController:scanned: %@", detectionString);
+  // NSLog(@"TBarcodeScannerViewControllerImpl:scanned: %@", detectionString);
 
   if (_scanDelegate != nil) {
     [_scanDelegate captureOutput:captureOutput didOutputMetadataObjects:metadataObjects fromConnection:connection ];

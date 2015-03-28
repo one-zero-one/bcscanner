@@ -1,5 +1,5 @@
 //
-//  TBarcodeScannerViewController.h
+//  TBarcodeScannerViewControllerImpl.h
 //  Scan bar codes
 //
 //  Created by Matthew Sinclair on 31/01/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TBarcodeScannerViewController : UIViewController
+@interface TBarcodeScannerViewControllerImpl : UIViewController
 
 @property (readonly)  AVCaptureSession           *session;
 @property (readonly)  AVCaptureDevice            *device;
