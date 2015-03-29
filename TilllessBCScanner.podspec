@@ -17,9 +17,6 @@ Pod::Spec.new do |s|
 
   s.source_files        = 'Pod/Classes/**/*'
   s.public_header_files = 'Pod/Classes/**/*.h'
-  s.resource_bundles    = {
-    'TilllessBCScanner' => ['Pod/Assets/*.png']
-  }
 
   s.frameworks          = 'UIKit', 'QuartzCore'
 end
